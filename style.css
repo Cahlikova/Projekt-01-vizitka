@@ -1,3 +1,135 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+h1 {
+    color: rgb(171, 140, 174);
+    text-align: center;
+}
+body {
+    background-color:blanchedalmond;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    width: 250px;
+    border-radius: 15%;
+    display:inline-block;
+    margin: 19px;
+    
+}
+.center {text-align: center;
+    
+}
+.menu {
+    text-align: center;
+    list-style-type: none;
+    margin: 20px 15px;
+    padding: 10px 5px;
+}
+
+.menu a{
+    font-style: italic;
+    font-size: large;
+    color: rgb(171, 140, 174);
+}
+
+.menu a:hover{
+    color:rgb(69, 22, 136);
+}
+
+.menu li{
+    margin-bottom: 20px;
+}
+#omne {
+    
+    color:rgb(120, 103, 120);
+    text-align: center;
+    font-size: 150%;
+}
+
+.text-background {
+    background-color: rgb(120, 103, 120);
+    display: inline-block;
+    padding: 10px;
+    color: bisque;
+    width: 70%;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+#pracovnizkusenosti {
+    color: rgb(171, 127, 202);
+    text-align: center;
+    font-size: 150%;
+}
+
+.text-background1 {
+   background-color: rgb(171, 127, 202);
+   display: inline-block;
+   padding: 10px;
+   color: bisque;
+   width: 70%;
+   font-size: 100%;
+   margin-bottom: 20px;
+}
+#pracovnizkusenosti .text-background1 ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.date-span {
+    display: inline-block;
+    width: 90%;   
+}
+
+#vzdelani {
+    color: rgb(180, 77, 154);
+    text-align: center;
+    font-size: 150%;
+}
+
+.text-background2 {
+    background-color: rgb(180, 77, 154);
+    display: inline-block;
+    padding: 10px;
+    color: bisque;
+    width: 70%;
+    font-size: 100%;
+    margin-bottom: 20px;
+ }
+
+ li {
+    margin-bottom: 20px;
+ }
+ #vzdelani .text-background2 ul {
+    list-style-type: none;
+}
+
+#kontakt {
+    color: rgb(56, 32, 60);
+    text-align: center;
+    font-size: 150%;
+}
+
+.text-background3 {
+    background-color: rgb(56, 32, 60);
+    display: inline-block;
+    padding: 10px;
+    color: bisque;
+    width: 70%;
+    font-size: 100%;
+    margin-bottom: 20px;
+ }
+
+ #kontakt li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 7%;
+ }
